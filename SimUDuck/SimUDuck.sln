@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimUDuck.Console", "SimUDuck.Console\SimUDuck.Console.csproj", "{B1096A17-B1C1-4B01-A271-1AD707EBDD61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimUDuck.Common", "SimUDuck.Common\SimUDuck.Common.csproj", "{4E65E141-EF4D-45E9-B051-F42B68435BFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1096A17-B1C1-4B01-A271-1AD707EBDD61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1096A17-B1C1-4B01-A271-1AD707EBDD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1096A17-B1C1-4B01-A271-1AD707EBDD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1096A17-B1C1-4B01-A271-1AD707EBDD61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E65E141-EF4D-45E9-B051-F42B68435BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E65E141-EF4D-45E9-B051-F42B68435BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E65E141-EF4D-45E9-B051-F42B68435BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E65E141-EF4D-45E9-B051-F42B68435BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8AE13EE-8F58-4F6C-B6F1-9DFCF41D5589}
+	EndGlobalSection
+EndGlobal
