@@ -1,4 +1,5 @@
 ﻿using SimUDuck.Common.Implementations.Ducks;
+using SimUDuck.Common.Implementations.Fly;
 using SimUDuck.Common.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SimUDuck.Console
+namespace SimUDuck.ConsoleApp
 {
     class Program
     {
@@ -17,7 +18,12 @@ namespace SimUDuck.Console
             mallard.PerformFly();
             mallard.PerformQuack();
 
-            Thread.Sleep(10000);
+            Duck model = new ModelDuck();
+            model.PerformFly();
+            model.SetFlyBehavior(new FlyRocketPowered());
+            model.PerformFly();
+
+            Console.ReadLine();
         }
     }
 }

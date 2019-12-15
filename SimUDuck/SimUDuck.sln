@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimUDuck.Console", "SimUDuck.Console\SimUDuck.Console.csproj", "{B1096A17-B1C1-4B01-A271-1AD707EBDD61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimUDuck.ConsoleApp", "SimUDuck.Console\SimUDuck.ConsoleApp.csproj", "{B1096A17-B1C1-4B01-A271-1AD707EBDD61}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimUDuck.Common", "SimUDuck.Common\SimUDuck.Common.csproj", "{4E65E141-EF4D-45E9-B051-F42B68435BFD}"
 EndProject

@@ -30,5 +30,15 @@ namespace SimUDuck.Common.Interfaces
         {
             Console.WriteLine("All ducks float, even decoys!");
         }
+
+        public void SetFlyBehavior(FlyBehavior fb)
+        {
+            _flyBehavior = fb;
+        }
+
+        public void SetQuackBehavior(QuackBehavior qb)
+        {
+            _quackBehavior = qb;
+        }
     }
 }
