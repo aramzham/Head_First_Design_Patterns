@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarbuzzCoffee.Common", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarbuzzCoffee.ConsoleApp", "StarbuzzCoffee.ConsoleApp\StarbuzzCoffee.ConsoleApp.csproj", "{B239FB15-F24E-4092-BFBB-82E5477E3287}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IODecorator", "IODecorator\IODecorator.csproj", "{1B123E99-1D7C-4992-9DB7-021FE20365A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B239FB15-F24E-4092-BFBB-82E5477E3287}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B239FB15-F24E-4092-BFBB-82E5477E3287}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B239FB15-F24E-4092-BFBB-82E5477E3287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B123E99-1D7C-4992-9DB7-021FE20365A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B123E99-1D7C-4992-9DB7-021FE20365A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B123E99-1D7C-4992-9DB7-021FE20365A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B123E99-1D7C-4992-9DB7-021FE20365A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
