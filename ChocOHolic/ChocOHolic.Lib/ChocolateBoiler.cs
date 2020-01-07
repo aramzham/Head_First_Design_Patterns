@@ -4,13 +4,23 @@ namespace ChocOHolic.Lib
 {
     public class ChocolateBoiler
     {
+        private static ChocolateBoiler chocolateBoiler;
+
         public bool IsEmpty { get; private set; }
         public bool IsBoiled { get; private set; }
 
-        public ChocolateBoiler()
+        private ChocolateBoiler()
         {
             IsEmpty = true;
             IsBoiled = false;
+        }
+
+        public static ChocolateBoiler GetInstance() 
+        {
+            if (chocolateBoiler is null)
+                chocolateBoiler = new ChocolateBoiler();
+
+            return chocolateBoiler;
         }
 
         public void Fill()
