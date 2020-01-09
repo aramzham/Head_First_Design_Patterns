@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeAutomationRemoteControl.Lib", "HomeAutomationRemoteControl.Lib\HomeAutomationRemoteControl.Lib.csproj", "{C8BC2917-7BD8-4B58-9C7C-C501020AF2EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeAutomationRemoteControl.RemoteLoader", "HomeAutomationRemoteControl.RemoteLoader\HomeAutomationRemoteControl.RemoteLoader.csproj", "{48A1511C-AE29-4319-9DAC-824C2BE8FF51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8BC2917-7BD8-4B58-9C7C-C501020AF2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BC2917-7BD8-4B58-9C7C-C501020AF2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BC2917-7BD8-4B58-9C7C-C501020AF2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BC2917-7BD8-4B58-9C7C-C501020AF2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A1511C-AE29-4319-9DAC-824C2BE8FF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A1511C-AE29-4319-9DAC-824C2BE8FF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A1511C-AE29-4319-9DAC-824C2BE8FF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A1511C-AE29-4319-9DAC-824C2BE8FF51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04D6D1B8-1BD3-47AA-81E1-93811B982D13}
+	EndGlobalSection
+EndGlobal
