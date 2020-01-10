@@ -10,17 +10,20 @@ namespace HomeAutomationRemoteControl.RemoteLoader
         {
             var remoteControl = new RemoteControl();
 
-            var livingRoomLight = new Light("Living room");
+            //var livingRoomLight = new Light("Living room");
             //var kitchenLight = new Light("Kithen");
-            //var ceilingFan = new CeilingFan("Living room");
+            var ceilingFan = new CeilingFan("Living room");
             //var garageDoor = new GarageDoor("");
             //var stereo = new Stereo("Living room");
 
-            var livingRoomLightOn = new LightOnCommand(livingRoomLight);
-            var livingRoomLightOff = new LightOffCommand(livingRoomLight);
+            //var livingRoomLightOn = new LightOnCommand(livingRoomLight);
+            //var livingRoomLightOff = new LightOffCommand(livingRoomLight);
             //var kitchenLightOn = new LightOnCommand(kitchenLight);
             //var kitchenLightOff = new LightOffCommand(kitchenLight);
 
+            var ceilingFanMediumCommand = new CeilingFanMediumCommand(ceilingFan);
+            var ceilingFanHighCommand = new CeilingFanHighCommand(ceilingFan);
+            var ceilingFanOffCommand = new CeilingFanOffCommand(ceilingFan);
             //var ceilingFanOn = new CeilingFanOnCommand(ceilingFan);
             //var ceilingFanOff = new CeilingFanOffCommand(ceilingFan);
 
@@ -31,21 +34,21 @@ namespace HomeAutomationRemoteControl.RemoteLoader
             //var stereoOff = new StereoOffCommand(stereo);
 
             // we are going to fill all these commands into remote control
-            remoteControl.SetCommand(0, livingRoomLightOn, livingRoomLightOff);
+            //remoteControl.SetCommand(0, livingRoomLightOn, livingRoomLightOff);
             //remoteControl.SetCommand(1, kitchenLightOn, kitchenLightOff);
-            //remoteControl.SetCommand(2, ceilingFanOn, ceilingFanOff);
+            remoteControl.SetCommand(2, ceilingFanMediumCommand, ceilingFanOffCommand);
+            remoteControl.SetCommand(3, ceilingFanHighCommand, ceilingFanOffCommand);
             //remoteControl.SetCommand(3, garageDoorUp, garageDoorDown);
 
             // print our remote control
-            System.Console.WriteLine(remoteControl);
+            //System.Console.WriteLine(remoteControl);
 
             // pushing the buttons!!!
-            remoteControl.OnButtonPressed(0);
-            remoteControl.OffButtonPressed(0);
+            remoteControl.OnButtonPressed(2);
+            remoteControl.OffButtonPressed(2);
             System.Console.WriteLine(remoteControl);
             remoteControl.UndoButtonPressed();
-            remoteControl.OffButtonPressed(0);
-            remoteControl.OnButtonPressed(0);
+            remoteControl.OnButtonPressed(3);
             System.Console.WriteLine(remoteControl);
             remoteControl.UndoButtonPressed();
 
