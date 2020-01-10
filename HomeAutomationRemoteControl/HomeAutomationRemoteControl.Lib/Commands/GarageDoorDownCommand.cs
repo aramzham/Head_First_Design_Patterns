@@ -18,5 +18,10 @@ namespace HomeAutomationRemoteControl.Lib.Commands
         {
             _garageDoor.Down();
         }
+
+        public void Undo()
+        {
+            _garageDoor.Up();
+        }
     }
 }

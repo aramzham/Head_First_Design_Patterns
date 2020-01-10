@@ -20,5 +20,10 @@ namespace HomeAutomationRemoteControl.Lib.Commands
             _stereo.SetCd();
             _stereo.SetVolume(11); // Why 11? Well, it's better than 10, right?
         }
+
+        public void Undo()
+        {
+            _stereo.Off();
+        }
     }
 }

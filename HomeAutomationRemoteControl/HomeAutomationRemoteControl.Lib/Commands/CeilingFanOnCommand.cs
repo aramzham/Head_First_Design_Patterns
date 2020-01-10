@@ -18,5 +18,10 @@ namespace HomeAutomationRemoteControl.Lib.Commands
         {
             _ceilingFan.On();
         }
+
+        public void Undo()
+        {
+            _ceilingFan.Off();
+        }
     }
 }

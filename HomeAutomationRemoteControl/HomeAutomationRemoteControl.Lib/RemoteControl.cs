@@ -9,6 +9,7 @@ namespace HomeAutomationRemoteControl.Lib
     {
         private ICommand[] _onCommands;
         private ICommand[] _offCommands;
+        private ICommand _lastUsedCommand;
 
         public RemoteControl()
         {
@@ -21,6 +22,7 @@ namespace HomeAutomationRemoteControl.Lib
                 _onCommands[i] = noCommand;
                 _offCommands[i] = noCommand;
             }
+            _lastUsedCommand = noCommand;
         }
 
         public void SetCommand(int slot, ICommand onCommand, ICommand offCommand) 
@@ -32,11 +34,18 @@ namespace HomeAutomationRemoteControl.Lib
         public void OnButtonPressed(int slot) 
         {
             _onCommands[slot].Execute();
+            _lastUsedCommand = _onCommands[slot];
         }
 
         public void OffButtonPressed(int slot)
         {
             _offCommands[slot].Execute();
+            _lastUsedCommand = _offCommands[slot];
+        }
+
+        public void UndoButtonPressed()
+        {
+            _lastUsedCommand.Undo();
         }
 
         public override string ToString()
@@ -47,6 +56,7 @@ namespace HomeAutomationRemoteControl.Lib
             {
                 sb.Append($"[slot {i}] {_onCommands[i].GetType().Name}  {_offCommands[i].GetType().Name}\n");
             }
+            sb.Append($"[undo] {_lastUsedCommand.GetType().Name}");
             return sb.ToString();
         }
     }

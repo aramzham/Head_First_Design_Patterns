@@ -6,6 +6,8 @@ namespace HomeAutomationRemoteControl.Lib.Receivers
 {
     public class Stereo : ReceiverBase
     {
+
+
         public Stereo(string place) : base(place)
         {
         }

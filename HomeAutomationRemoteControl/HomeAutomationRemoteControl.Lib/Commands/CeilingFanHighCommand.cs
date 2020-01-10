@@ -5,12 +5,12 @@ using System.Text;
 
 namespace HomeAutomationRemoteControl.Lib.Commands
 {
-    public class CeilingFanOffCommand : ICommand
+    public class CeilingFanHighCommand : ICommand
     {
         private CeilingFan _ceilingFan;
         private int _prevSpeed;
 
-        public CeilingFanOffCommand(CeilingFan ceilingFan)
+        public CeilingFanHighCommand(CeilingFan ceilingFan)
         {
             _ceilingFan = ceilingFan;
         }
@@ -18,7 +18,7 @@ namespace HomeAutomationRemoteControl.Lib.Commands
         public void Execute()
         {
             _prevSpeed = _ceilingFan.GetSpeed();
-            _ceilingFan.Off();
+            _ceilingFan.High();
         }
 
         public void Undo()

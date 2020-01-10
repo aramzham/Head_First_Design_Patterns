@@ -18,5 +18,10 @@ namespace HomeAutomationRemoteControl.Lib.Commands
         {
             _stereo.Off();
         }
+
+        public void Undo()
+        {
+            // implement same way as ceiling fan
+        }
     }
 }

@@ -10,5 +10,10 @@ namespace HomeAutomationRemoteControl.Lib.Commands
         {
             // do not execute anything
         }
+
+        public void Undo()
+        {
+            // do nothing either
+        }
     }
 }

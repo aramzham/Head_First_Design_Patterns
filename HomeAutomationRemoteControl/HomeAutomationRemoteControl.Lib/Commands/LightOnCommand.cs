@@ -18,5 +18,10 @@ namespace HomeAutomationRemoteControl.Lib.Commands
         {
             _light.On();
         }
+
+        public void Undo()
+        {
+            _light.Off();
+        }
     }
 }
