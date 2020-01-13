@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeingAdaptive.ConsoleApp", "BeingAdaptive.ConsoleApp\BeingAdaptive.ConsoleApp.csproj", "{4C7E006C-9FAC-4056-B6F8-79BC815AC527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeingAdaptive.Lib", "BeingAdaptive.Lib\BeingAdaptive.Lib.csproj", "{2449B2C4-5E1C-42D0-BF56-9C022881401B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C7E006C-9FAC-4056-B6F8-79BC815AC527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7E006C-9FAC-4056-B6F8-79BC815AC527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7E006C-9FAC-4056-B6F8-79BC815AC527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7E006C-9FAC-4056-B6F8-79BC815AC527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2449B2C4-5E1C-42D0-BF56-9C022881401B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2449B2C4-5E1C-42D0-BF56-9C022881401B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2449B2C4-5E1C-42D0-BF56-9C022881401B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2449B2C4-5E1C-42D0-BF56-9C022881401B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {731DB4BD-1833-45AD-BCF7-F5C31F5C54E5}
+	EndGlobalSection
+EndGlobal
