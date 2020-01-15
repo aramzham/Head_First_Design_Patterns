@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeingAdaptive.ConsoleApp", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeingAdaptive.Lib", "BeingAdaptive.Lib\BeingAdaptive.Lib.csproj", "{2449B2C4-5E1C-42D0-BF56-9C022881401B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeingAdaptive.FacadeLib", "BeingAdaptive.FacadeLib\BeingAdaptive.FacadeLib.csproj", "{DA75EB73-ED31-41BC-8AF1-FA9B1FA53319}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2449B2C4-5E1C-42D0-BF56-9C022881401B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2449B2C4-5E1C-42D0-BF56-9C022881401B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2449B2C4-5E1C-42D0-BF56-9C022881401B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA75EB73-ED31-41BC-8AF1-FA9B1FA53319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA75EB73-ED31-41BC-8AF1-FA9B1FA53319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA75EB73-ED31-41BC-8AF1-FA9B1FA53319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA75EB73-ED31-41BC-8AF1-FA9B1FA53319}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

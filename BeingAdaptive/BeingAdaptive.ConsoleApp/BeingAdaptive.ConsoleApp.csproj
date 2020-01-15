@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BeingAdaptive.FacadeLib\BeingAdaptive.FacadeLib.csproj">
+      <Project>{DA75EB73-ED31-41BC-8AF1-FA9B1FA53319}</Project>
+      <Name>BeingAdaptive.FacadeLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BeingAdaptive.Lib\BeingAdaptive.Lib.csproj">
       <Project>{2449B2C4-5E1C-42D0-BF56-9C022881401B}</Project>
       <Name>BeingAdaptive.Lib</Name>
