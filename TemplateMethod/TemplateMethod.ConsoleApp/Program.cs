@@ -14,6 +14,10 @@ namespace TemplateMethod.ConsoleApp
             var tea = new Tea();
             tea.PrepareRecipe();
 
+            var coffeeHook = new CoffeeWithHook();
+            Console.WriteLine("\nMaking coffee...");
+            coffeeHook.PrepareRecipe();
+
             Console.ReadKey();
         }
     }
