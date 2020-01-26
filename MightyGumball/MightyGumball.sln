@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MightyGumball.Lib", "MightyGumball.Lib\MightyGumball.Lib.csproj", "{22CC7D7E-9D76-465B-8D5B-99EE318AE17C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MightyGumball.TestConsole", "MightyGumball.TestConsole\MightyGumball.TestConsole.csproj", "{AC98463A-9612-4450-8843-1183C1CF3F8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22CC7D7E-9D76-465B-8D5B-99EE318AE17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CC7D7E-9D76-465B-8D5B-99EE318AE17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CC7D7E-9D76-465B-8D5B-99EE318AE17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CC7D7E-9D76-465B-8D5B-99EE318AE17C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC98463A-9612-4450-8843-1183C1CF3F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC98463A-9612-4450-8843-1183C1CF3F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC98463A-9612-4450-8843-1183C1CF3F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC98463A-9612-4450-8843-1183C1CF3F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88DCA527-1D07-42F0-83F2-F1568FAD2AB5}
+	EndGlobalSection
+EndGlobal
