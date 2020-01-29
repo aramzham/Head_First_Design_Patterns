@@ -1,8 +1,9 @@
 # From Head First Design Patterns book
 
-<img width="300" height="400" src="https://user-images.githubusercontent.com/25085025/73359924-57592900-42bb-11ea-9f99-09df126ee1b9.jpg"/>
-
-<p>Remember, knowing concepts like abstraction, inheritance, and polymorphism do not make you a good object oriented designer. A design guru thinks about how to create flexible designs that are maintainable and that can cope with change.</p>
+<div>
+  <img align="left" width="100" height="150" src="https://user-images.githubusercontent.com/25085025/73359924-57592900-42bb-11ea-9f99-09df126ee1b9.jpg"/>
+  <p>Remember, knowing concepts like abstraction, inheritance, and polymorphism do not make you a good object oriented designer. A design guru thinks about how to create flexible designs that are maintainable and that can cope with change.</p>
+</div>
 
 <h2>Creational Patterns</h4>
 <hr width=”75%”>
