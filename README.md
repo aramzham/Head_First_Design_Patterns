@@ -12,6 +12,7 @@
   <h4 ><a href="#">Factory Method</a></h3>
   <div class="intent">Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.</div>
 </div>
+<br>
 <div>
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73364270-b28f1980-42c3-11ea-91c9-199e7f1c1c51.png"/>
   <h4 ><a href="#">Abstract Factory</a></h3>
@@ -32,21 +33,25 @@
   <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/BeingAdaptive">Adapter</a></h3>
   <div class="intent">Provides a unified interface that allows objects with incompatible interfaces to collaborate.</div>
 </div>
+<br>
 <div>
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73364719-7b6d3800-42c4-11ea-8779-671e56961457.png"/>
   <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/ChocOHolic">Composite</a></h3>
   <div class="intent">Lets you compose objects into tree structures and then work with these structures as if they were individual objects.</div>
 </div>
+<br>
 <div>
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73364722-7b6d3800-42c4-11ea-8cab-acd94677eb66.png"/>
   <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/StarbuzzCoffee">Decorator</a></h3>
   <div class="intent">Lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.</div>
 </div>
+<br>
 <div>
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73364723-7b6d3800-42c4-11ea-9899-4411ceae28b3.png"/>
   <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/HomeAutomationRemoteControl">Facade</a></h3>
   <div class="intent">Provides a simplified interface to a library, a framework, or any other complex set of classes.</div>
 </div>
+<br>
 <div>
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73364725-7c05ce80-42c4-11ea-9fb0-550976a921b5.png"/>
   <h4 ><a href="#">Proxy</a></h3>
@@ -61,21 +66,25 @@
   <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/HomeAutomationRemoteControl">Command</a></h3>
   <div class="intent">Turns a request into a stand-alone object that contains all information about the request. This transformation lets you parameterize methods with different requests, delay or queue a request's execution, and support undoable operations.</div>
 </div>
+<br>
 <div>
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73365543-deab9a00-42c5-11ea-983e-a9fc97e890a4.png"/>
   <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/WellManagedCollections">Iterator</a></h3>
   <div class="intent">Lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).</div>
 </div>
+<br>
 <div>
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73365545-df443080-42c5-11ea-81eb-a65e65147ab0.png"/>
   <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/WeatherORama">Observer</a></h3>
   <div class="intent">Lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they're observing.</div>
 </div>
+<br>
 <div>
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73365546-df443080-42c5-11ea-8666-1f5dc1f75a65.png"/>
   <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/MightyGumball">State</a></h3>
   <div class="intent">Lets an object alter its behavior when its internal state changes. It appears as if the object changed its class.</div>
 </div>
+<br>
 <div>
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73365547-df443080-42c5-11ea-9eb1-cb7ac8deda80.png"/>
   <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/SimUDuck">Strategy</a></h3>
