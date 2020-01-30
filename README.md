@@ -17,6 +17,7 @@
   <h4 ><a href="#">Abstract Factory</a></h3>
   <div class="intent">Lets you produce families of related objects without specifying their concrete classes.</div>
 </div>
+<br>
 <div>
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73362962-3e537680-42c1-11ea-9661-e4ffc0871e16.png"/>
   <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/ChocOHolic">Singleton</a></h3>
