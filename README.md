@@ -54,7 +54,7 @@
 <br>
 <div>
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73364725-7c05ce80-42c4-11ea-9fb0-550976a921b5.png"/>
-  <h4 ><a href="#">Proxy</a></h3>
+  <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/ControlObjectAccess">Proxy</a></h3>
   <div class="intent">Lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.</div>
 </div>
 
