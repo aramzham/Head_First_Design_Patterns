@@ -1,5 +1,6 @@
 ﻿using PatternsOfPatterns.SimUDuck_2.Lib.Implementations;
 using PatternsOfPatterns.SimUDuck_2.Lib.Implementations.Ducks;
+using PatternsOfPatterns.SimUDuck_2.Lib.Implementations.Factories;
 using PatternsOfPatterns.SimUDuck_2.Lib.Implementations.Geese;
 using PatternsOfPatterns.SimUDuck_2.Lib.Interfaces;
 using System;
@@ -14,20 +15,22 @@ namespace PatternsOfPatterns.SimUDuck_2.TestDrive
     {
         static void Main(string[] args)
         {
-            Simulate();
+            AbstractDuckFactory duckFactory = new CountingDuckFactory();
+            AbstractGooseFactory gooseFactory = new GooseFactory();
+            Simulate(duckFactory, gooseFactory);
 
             Console.ReadKey();
         }
 
-        private static void Simulate()
+        private static void Simulate(AbstractDuckFactory duckFactory, AbstractGooseFactory gooseFactory)
         {
-            IQuackable mallardDuck = new QuackCounter(new MallardDuck());
-            IQuackable readheadDuck = new QuackCounter(new ReadheadDuck());
-            IQuackable duckCall = new QuackCounter(new DuckCall());
-            IQuackable rubberDuck = new QuackCounter(new RubberDuck());
-            IQuackable gooseDuck = new GooseAdapter(new Goose());
+            IQuackable mallardDuck = duckFactory.CreateMallardDuck();
+            IQuackable readheadDuck = duckFactory.CreateReadheadDuck();
+            IQuackable duckCall = duckFactory.CreateDuckCall();
+            IQuackable rubberDuck = duckFactory.CreateRubberDuck();
+            IQuackable gooseDuck = new GooseAdapter(gooseFactory.CreateGoose());
 
-            Console.WriteLine("\nDuck Simulator: With Goose Adapter");
+            Console.WriteLine("\nDuck Simulator: With Abstract Factory");
 
             Simulate(mallardDuck);
             Simulate(readheadDuck);
