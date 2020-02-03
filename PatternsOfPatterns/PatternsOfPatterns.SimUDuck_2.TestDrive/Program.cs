@@ -30,13 +30,34 @@ namespace PatternsOfPatterns.SimUDuck_2.TestDrive
             IQuackable rubberDuck = duckFactory.CreateRubberDuck();
             IQuackable gooseDuck = new GooseAdapter(gooseFactory.CreateGoose());
 
-            Console.WriteLine("\nDuck Simulator: With Abstract Factory");
+            Console.WriteLine("\nDuck Simulator: With Composite - Flocks");
 
-            Simulate(mallardDuck);
-            Simulate(readheadDuck);
-            Simulate(duckCall);
-            Simulate(rubberDuck);
-            Simulate(gooseDuck);
+            var flockOfDucks = new Flock();
+
+            flockOfDucks.Add(mallardDuck);
+            flockOfDucks.Add(readheadDuck);
+            flockOfDucks.Add(duckCall);
+            flockOfDucks.Add(rubberDuck);
+
+            var flockOfMallards = new Flock();
+
+            IQuackable mallard_1 = duckFactory.CreateMallardDuck();
+            IQuackable mallard_2 = duckFactory.CreateMallardDuck();
+            IQuackable mallard_3 = duckFactory.CreateMallardDuck();
+            IQuackable mallard_4 = duckFactory.CreateMallardDuck();
+
+            flockOfMallards.Add(mallard_1);
+            flockOfMallards.Add(mallard_2);
+            flockOfMallards.Add(mallard_3);
+            flockOfMallards.Add(mallard_4);
+
+            flockOfDucks.Add(flockOfMallards);
+
+            Console.WriteLine("\nDuck Simulator: Whole Flock Simulation");
+            Simulate(flockOfDucks);
+
+            Console.WriteLine("\nDuck Simulator: Mallard Flock Simulation");
+            Simulate(flockOfMallards);
 
             Console.WriteLine($"The ducks quacked {QuackCounter.GetQuacks()} times");
         }
