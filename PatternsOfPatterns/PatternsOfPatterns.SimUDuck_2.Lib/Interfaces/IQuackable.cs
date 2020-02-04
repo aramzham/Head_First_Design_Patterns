@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PatternsOfPatterns.SimUDuck_2.Lib.Interfaces
 {
-    public interface IQuackable
+    public interface IQuackable : IQuackObservable
     {
         void Quack();
     }

@@ -22,9 +22,19 @@ namespace PatternsOfPatterns.SimUDuck_2.Lib.Implementations
             NumberOfQuacks++;
         }
 
-        public static int GetQuacks() 
+        public static int GetQuacks()
         {
             return NumberOfQuacks;
+        }
+
+        public void RegisterObserver(IObserver observer)
+        {
+            _duck.RegisterObserver(observer);
+        }
+
+        public void NotifyObservers()
+        {
+            _duck.NotifyObservers();
         }
     }
 }

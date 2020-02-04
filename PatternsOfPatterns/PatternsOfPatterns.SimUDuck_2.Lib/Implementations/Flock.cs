@@ -9,18 +9,39 @@ namespace PatternsOfPatterns.SimUDuck_2.Lib.Implementations
     {
         private List<IQuackable> _quackers = new List<IQuackable>();
 
-        public void Add(IQuackable quacker) 
+        public void Add(IQuackable quacker)
         {
             _quackers.Add(quacker);
         }
 
         public void Quack()
         {
-            var iterator = _quackers.GetEnumerator();
-            while (iterator.MoveNext())
+            foreach (var quacker in _quackers)
             {
-                var quacker = iterator.Current;
                 quacker.Quack();
+            }
+
+            //var iterator = _quackers.GetEnumerator();
+            //while (iterator.MoveNext())
+            //{
+            //    var quacker = iterator.Current;
+            //    quacker?.Quack();
+            //}
+        }
+
+        public void RegisterObserver(IObserver observer)
+        {
+            foreach (var quackable in _quackers)
+            {
+                quackable.RegisterObserver(observer);
+            }
+        }
+
+        public void NotifyObservers()
+        {
+            foreach (var quackable in _quackers)
+            {
+                quackable.NotifyObservers();
             }
         }
     }

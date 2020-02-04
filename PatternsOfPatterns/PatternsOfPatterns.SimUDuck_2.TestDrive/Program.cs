@@ -38,6 +38,7 @@ namespace PatternsOfPatterns.SimUDuck_2.TestDrive
             flockOfDucks.Add(readheadDuck);
             flockOfDucks.Add(duckCall);
             flockOfDucks.Add(rubberDuck);
+            flockOfDucks.Add(gooseDuck);
 
             var flockOfMallards = new Flock();
 
@@ -52,6 +53,10 @@ namespace PatternsOfPatterns.SimUDuck_2.TestDrive
             flockOfMallards.Add(mallard_4);
 
             flockOfDucks.Add(flockOfMallards);
+
+            Console.WriteLine("\nDuck Simulator: With Observer");
+            var quackologist = new Quackologist();
+            flockOfDucks.RegisterObserver(quackologist);
 
             Console.WriteLine("\nDuck Simulator: Whole Flock Simulation");
             Simulate(flockOfDucks);
