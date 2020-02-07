@@ -8,7 +8,6 @@
   <li>Invokers can be parameterized with Commands, even dynamically at runtime.</li>
   <li>Commands may support undo by implementing an undo method that restores the object to its previous state before the execute() method was last called.</li>
   <li>Commands may also be used to implement logging and transactional systems.</li>
-  <li>You can implement more than one facade for a subsystem.</li>
 </ul>
 <h1>Class diagram :six_pointed_star:	</h1>
 <img align="left" src="https://user-images.githubusercontent.com/25085025/74012523-e3e2a600-49a3-11ea-9830-4c21a55fff0a.png"/>
