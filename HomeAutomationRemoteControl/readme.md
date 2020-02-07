@@ -1,13 +1,14 @@
-<img align="right" src="https://user-images.githubusercontent.com/25085025/73748654-51f45680-4773-11ea-9b79-94fabb809085.png"/>
-<p><h2>Facade :office:</h2><i>Provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.</i></p>
-<h3>Bullet points :european_castle:</h3>
+<img align="right" height="550" width="640" src="https://user-images.githubusercontent.com/25085025/74012750-6bc8b000-49a4-11ea-836d-c7e8e799632f.png"/>
+<p><h2>Command :tv:</h2><i>Encapsulates a request as an object, thereby letting you parametrize clients with different requests, queue or log requests, and support undoable operations.</i></p>
+<h3>Bullet points :calling:</h3>
 <ul>
-  <li>When you need to simplify and unify a large interface or complex set of interfaces, use a facade.</li>
-  <li>A facade decouples a client from a complex subsystem.</li>
-  <li>Implementing a facade requires that we compose the facade with its subsystem and use delegation to perform the work of the facade. </li>
+  <li>The Command Pattern decouples an object, making a request from the one that knows how to perform it.</li>
+  <li>A Command object is at the center of this decoupling and encapsulates a receiver with an action (or set of actions).</li>
+  <li>An invoker makes a request of a Command object by calling its execute() method, which invokes those actions on the receiver.</li>
+  <li>Invokers can be parameterized with Commands, even dynamically at runtime.</li>
+  <li>Commands may support undo by implementing an undo method that restores the object to its previous state before the execute() method was last called.</li>
+  <li>Commands may also be used to implement logging and transactional systems.</li>
   <li>You can implement more than one facade for a subsystem.</li>
-  <li>An adapter wraps an object to change its interface, a decorator wraps an object to add new behaviors and responsibilities, and a facade “wraps” a set of objects to simplify.
-</li>
 </ul>
-<h1>Class diagram :first_quarter_moon_with_face:	</h1>
-<img align="left" src="https://user-images.githubusercontent.com/25085025/73747896-d47c1680-4771-11ea-8cce-69c0deb8e4b6.png"/>
+<h1>Class diagram :six_pointed_star:	</h1>
+<img align="left" src="https://user-images.githubusercontent.com/25085025/74012523-e3e2a600-49a3-11ea-9830-4c21a55fff0a.png"/>
