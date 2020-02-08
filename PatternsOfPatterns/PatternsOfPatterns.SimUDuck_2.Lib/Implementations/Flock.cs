@@ -39,10 +39,6 @@ namespace PatternsOfPatterns.SimUDuck_2.Lib.Implementations
 
         public void NotifyObservers()
         {
-            foreach (var quackable in _quackers)
-            {
-                quackable.NotifyObservers();
-            }
         }
     }
 }
