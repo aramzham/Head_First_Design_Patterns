@@ -6,10 +6,14 @@ namespace BakingWithOOGoodness.Lib.Interfaces
 {
     public abstract class Pizza
     {
-        public string Name { get; protected set; }
+        public string Name { get; set; }
         protected string _dough;
         protected string _sauce;
         protected List<string> _toppings = new List<string>();
+        protected string[] _veggies;
+        protected string _cheese;
+        protected string _pepperoni;
+        protected string _clam;
 
         public virtual void Bake()
         {
@@ -26,13 +30,6 @@ namespace BakingWithOOGoodness.Lib.Interfaces
             Console.WriteLine("Cutting the pizza into diagonal slices");
         }
 
-        public virtual void Prepare()
-        {
-            Console.WriteLine($"Preparing {Name}");
-            Console.WriteLine("Tossing dough...");
-            Console.WriteLine("Adding sauce...");
-            Console.WriteLine("Adding toppings: ");
-            _toppings.ForEach(x => Console.WriteLine($" {x}"));
-        }
+        public abstract void Prepare();
     }
 }

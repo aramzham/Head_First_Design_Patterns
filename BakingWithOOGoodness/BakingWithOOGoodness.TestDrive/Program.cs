@@ -12,6 +12,7 @@ namespace BakingWithOOGoodness.TestDrive
     {
         static void Main(string[] args)
         {
+            // implement prepare methods in pizzas, f.e. in NYStyleVeggiePizza then run
             PizzaStore nyStore = new NYPizzaStore();
             PizzaStore chicagoStore = new ChicagoPizzaStore();
 

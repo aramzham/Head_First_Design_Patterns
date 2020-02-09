@@ -20,5 +20,10 @@ namespace BakingWithOOGoodness.Lib.Implementations.Pizzas
         {
             Console.WriteLine("Cutting the pizza into square slices");
         }
+
+        public override void Prepare()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -15,5 +15,10 @@ namespace BakingWithOOGoodness.Lib.Implementations.Pizzas
 
             _toppings.Add("Grated Reggiano Cheese");
         }
+
+        public override void Prepare()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -15,5 +15,10 @@ namespace BakingWithOOGoodness.Lib.Implementations.Pizzas
 
             _toppings.Add("topping for pepperoni");
         }
+
+        public override void Prepare()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
