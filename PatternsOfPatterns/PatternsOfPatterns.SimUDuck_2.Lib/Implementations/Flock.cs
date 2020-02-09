@@ -37,8 +37,6 @@ namespace PatternsOfPatterns.SimUDuck_2.Lib.Implementations
             }
         }
 
-        public void NotifyObservers()
-        {
-        }
+        public void NotifyObservers() { }
     }
 }
