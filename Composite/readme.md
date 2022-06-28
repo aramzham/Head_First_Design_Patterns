@@ -1,4 +1,4 @@
-<img style="float:right" src="https://refactoring.guru/images/patterns/content/composite/composite-comic-1-en.png"/>
+<img align="right" src="https://refactoring.guru/images/patterns/content/composite/composite-comic-1-en.png"/>
 <h2>Composite :evergreen_tree:</h2>
 <i>Allows you to
 compose objects into tree structures to
