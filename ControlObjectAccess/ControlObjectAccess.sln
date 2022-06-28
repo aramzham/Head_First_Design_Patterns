@@ -1,13 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29613.14
-MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlObjectAccess.Lib", "ControlObjectAccess.Lib\ControlObjectAccess.Lib.csproj", "{F4A31DDD-6AF1-4B1B-B257-2E83890D5A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlObjectAccess.TestDrive", "ControlObjectAccess.TestDrive\ControlObjectAccess.TestDrive.csproj", "{7CD00C1F-2CC1-45E6-8458-30E0615694CE}"
+EndProject
 Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A5053DB3-E335-4733-A169-7CAF00409CCA}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4A31DDD-6AF1-4B1B-B257-2E83890D5A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A31DDD-6AF1-4B1B-B257-2E83890D5A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A31DDD-6AF1-4B1B-B257-2E83890D5A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A31DDD-6AF1-4B1B-B257-2E83890D5A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD00C1F-2CC1-45E6-8458-30E0615694CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD00C1F-2CC1-45E6-8458-30E0615694CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD00C1F-2CC1-45E6-8458-30E0615694CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD00C1F-2CC1-45E6-8458-30E0615694CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
