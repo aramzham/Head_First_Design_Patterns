@@ -101,5 +101,6 @@
   <h3>About</h3>
 <ol type="1">
   <li>Eric Freeman, Elisabeth Freeman "Head First Design Patterns" :blue_book:</li>
+  <li><a href="https://refactoring.guru/">Refactoring guru</a>:orange_book:</li>
   <li>:vs: Community 2019</li>
 </ol>
