@@ -1,5 +1,5 @@
 <img align="right" src="https://user-images.githubusercontent.com/25085025/176233126-bcd59f36-67bd-407d-b596-54b6d3107adb.png"/>
-<p><h2>Iterator 🚶‍♂️</h2><i></i></p>
+<p><h2>Iterator 🚶‍♂️</h2><i>The main idea of the Iterator pattern is to extract the traversal behavior of a collection into a separate object called an iterator.</i></p>
 <h3>Bullet points ✍️</h3>
 <ul>
   <li>An Iterator allows access to an
