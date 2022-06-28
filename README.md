@@ -89,6 +89,7 @@
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73365547-df443080-42c5-11ea-9eb1-cb7ac8deda80.png"/>
   <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/SimUDuck">Strategy</a></h3>
   <div class="intent">Lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.</div>
+  <br>
 <div>
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73365548-dfdcc700-42c5-11ea-8816-6061fd04bae1.png"/>
   <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/TemplateMethod">Template method</a></h3>
