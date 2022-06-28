@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.Lib", "Composite.Lib\Composite.Lib.csproj", "{394436CE-D228-46ED-B184-EFE3FA61CFA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.TestDrive", "Composite.TestDrive\Composite.TestDrive.csproj", "{77C44A50-5E45-4C88-8DB3-F7EE96BB3A57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{394436CE-D228-46ED-B184-EFE3FA61CFA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394436CE-D228-46ED-B184-EFE3FA61CFA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394436CE-D228-46ED-B184-EFE3FA61CFA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394436CE-D228-46ED-B184-EFE3FA61CFA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C44A50-5E45-4C88-8DB3-F7EE96BB3A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C44A50-5E45-4C88-8DB3-F7EE96BB3A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C44A50-5E45-4C88-8DB3-F7EE96BB3A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C44A50-5E45-4C88-8DB3-F7EE96BB3A57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
