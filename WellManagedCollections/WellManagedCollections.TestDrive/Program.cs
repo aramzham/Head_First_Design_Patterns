@@ -1,37 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// The client code may or may not know about the Concrete Iterator
+// or Collection classes, depending on the level of indirection you
+// want to keep in your program.
+
 using WellManagedCollections.Lib;
 
-namespace WellManagedCollections.TestDrive
+var collection = new WordsCollection();
+collection.AddItem("First");
+collection.AddItem("Second");
+collection.AddItem("Third");
+
+Console.WriteLine("Straight traversal:");
+
+foreach (var element in collection)
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            var pancakeHouseMenu = new Menu("Pancake House Menu", "Breakfast");
-            var dinerMenu = new Menu("Diner Menu", "Lunch");
-            var cafeMenu = new Menu("Cafe Menu", "Dinner");
-            var dessertMenu = new Menu("Dessert Menu", "Dessert of course!");
+    Console.WriteLine(element);
+}
 
-            var allMenus = new Menu("ALL MENUS", "All menus combined");
-            allMenus.Add(pancakeHouseMenu);
-            allMenus.Add(dinerMenu);
-            allMenus.Add(cafeMenu);
+Console.WriteLine("\nReverse traversal:");
 
-            dinerMenu.Add(new MenuItem("Pasta", "Spaghetti with Marinara Sauce, and a slice of sourdough bread", true, 3.89));
+collection.ReverseDirection();
 
-            dinerMenu.Add(dessertMenu);
-
-            dessertMenu.Add(new MenuItem("Apple Pie","Apple pie with a flakey crust, topped with vanilla icecream", true, 1.59));
-
-            var waitress = new Waitress(allMenus);
-
-            waitress.PrintMenu();
-
-            Console.ReadKey();
-        }
-    }
+foreach (var element in collection)
+{
+    Console.WriteLine(element);
 }

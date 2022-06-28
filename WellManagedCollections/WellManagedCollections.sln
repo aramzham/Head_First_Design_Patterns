@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WellManagedCollections.Lib", "WellManagedCollections.Lib\WellManagedCollections.Lib.csproj", "{D76A457B-1622-46AB-A56C-2C6AD33E1A23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WellManagedCollections.TestDrive", "WellManagedCollections.TestDrive\WellManagedCollections.TestDrive.csproj", "{ACCCE24C-4DFA-494E-99E0-767A1D0537C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WellManagedCollections.TestDrive", "WellManagedCollections.TestDrive\WellManagedCollections.TestDrive.csproj", "{90E6554C-60CE-4D04-80BC-5E79E522A445}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +21,10 @@ Global
 		{ACCCE24C-4DFA-494E-99E0-767A1D0537C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACCCE24C-4DFA-494E-99E0-767A1D0537C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACCCE24C-4DFA-494E-99E0-767A1D0537C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E6554C-60CE-4D04-80BC-5E79E522A445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E6554C-60CE-4D04-80BC-5E79E522A445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E6554C-60CE-4D04-80BC-5E79E522A445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E6554C-60CE-4D04-80BC-5E79E522A445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
