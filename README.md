@@ -36,7 +36,7 @@
 <br>
 <div>
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73364719-7b6d3800-42c4-11ea-8779-671e56961457.png"/>
-  <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/ChocOHolic">Composite</a></h3>
+  <h4 ><a href="#">Composite</a></h3>
   <div class="intent">Lets you compose objects into tree structures and then work with these structures as if they were individual objects.</div>
 </div>
 <br>
