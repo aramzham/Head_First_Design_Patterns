@@ -9,7 +9,7 @@
 <hr width=”75%”>
 <div>
   <img align="left" src="https://user-images.githubusercontent.com/25085025/73364271-b28f1980-42c3-11ea-8ef2-5453476118cb.png"/>
-  <h4 ><a href="#">Factory Method</a></h3>
+  <h4 ><a href="https://github.com/aramzham/Head_First_Design_Patterns/tree/master/BakingWithOOGoodness">Factory Method</a></h3>
   <div class="intent">Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.</div>
 </div>
 <br>
